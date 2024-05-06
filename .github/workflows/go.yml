@@ -30,8 +30,8 @@ jobs:
 
     - name: Test Secret Key from Environment
       env:
-       SECRET: ${{ secrets.teste }}
+       SECRET: ${{ secrets.TESTE }}
       run: echo env.SECRET
 
     - name: Test Secret Key directly
-      run: echo ${{ secrets.teste }}
+      run: echo ${{ secrets.TESTE }}
