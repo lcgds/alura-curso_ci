@@ -38,3 +38,6 @@ jobs:
     
     - name: Build
       run: go build -v main.go
+
+    - name: Test Secret Key from Environment
+      run: echo ${{ secrets.teste }}
